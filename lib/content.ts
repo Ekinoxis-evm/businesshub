@@ -33,7 +33,7 @@ export async function getEventContent(): Promise<EventContent> {
   const eventData: EventContent = {
     title: "Cali Business Hub 2025",
     description: "El punto de encuentro para empresarios, inversionistas y directivos que transforman el país.",
-    date: "22 de noviembre de 2025",
+    date: "29 de noviembre de 2025",
     location: "Zonamérica Cali",
     duration: "3 horas",
     price: "$500,000 + IVA (Dos cupos por empresa)",

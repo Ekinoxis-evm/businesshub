@@ -40,6 +40,8 @@ export default async function HomePage() {
         academicBlock={eventData.academicBlock}
       />
 
+      <SupportedBySection />
+
       <LocationSection />
       
       <RegistrationSection 
