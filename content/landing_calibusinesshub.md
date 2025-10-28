@@ -1,0 +1,137 @@
+# Cali Business Hub 2025
+
+## 🏙️ Contexto General del Evento
+Cali Business Hub es el punto de encuentro para los empresarios, inversionistas y directivos más influyentes del país.  
+Un workshop de alto nivel diseñado para ofrecer **herramientas prácticas, relaciones estratégicas y espacios exclusivos de conexión real**.
+
+No es un evento masivo, sino una **experiencia selecta**, donde cada asistente ha sido cuidadosamente elegido para garantizar conexiones de valor y oportunidades tangibles.
+
+**Objetivo Principal:**  
+Ofrecer a los empresarios herramientas prácticas y, sobre todo, conexiones valiosas con otros empresarios, inversionistas o aliados.
+
+**Objetivo Secundario:**  
+Posicionar la marca como un generador de espacios de alto valor y conexión empresarial.
+
+---
+
+## 💎 Propuesta de Valor
+
+**Lo que vivirás**
+- Conexión directa con empresarios, inversionistas y ejecutivos top.
+- Experiencias guiadas de networking estratégico, diseñadas para generar relaciones reales.
+- Workshop inspirador con herramientas prácticas de conexión humana y expansión empresarial.
+- Panel de casos de éxito con líderes que transformaron sus negocios mediante networking inteligente.
+- Cóctel premium de networking con ambiente relajado y conexiones espontáneas.
+- Directorio digital privado de asistentes (contactos verificados).
+- Acceso al grupo de networking post-evento para potenciar relaciones.
+
+**Duración:**  
+Un solo día, tres horas y decenas de oportunidades para hacer crecer tu empresa.
+
+---
+
+## 🚀 Diferencial
+
+**Metodología Exclusiva:**  
+Cali Business Hub ha sido diseñado con un método que asegura que cada participante salga con al menos **tres conexiones estratégicas de alto valor**.
+
+Durante el evento, cada asistente recibe un listado personalizado de los contactos que más pueden aportarle.
+
+**Resultado:**  
+Tu inversión se convierte en oportunidades reales de crecimiento, colaboración y expansión empresarial.
+
+---
+
+## 👥 Perfil de Asistentes
+
+- **CEOs, directivos y fundadores** de empresas con visión de crecimiento.  
+- **Inversionistas y líderes** con capital y propósito.  
+- **Ejecutivos con poder de decisión** en busca de alianzas estratégicas.  
+- **Emprendedores consolidados** que desean escalar sus negocios.
+
+---
+
+## 📆 Detalles del Evento
+
+**Evento:** Cali Business Hub 2025  
+**Fecha:** 22 de noviembre de 2025  
+**Lugar:** Zonamérica Cali  
+**Duración:** 3 horas  
+**Inversión:** $500,000 + IVA (Dos cupos por empresa)  
+**Horario:** Por confirmar
+
+---
+
+## 🎓 Bloque Académico — Ventas B2B Digitales
+
+### 🎯 Concepto General
+"**Ventas B2B Digitales: Cómo generar, gestionar y convertir oportunidades reales en el nuevo entorno empresarial.**"
+
+### 💡 Justificación
+Las empresas B2B enfrentan una doble brecha:
+1. **Brecha de adquisición:** dificultad para generar leads cualificados.
+2. **Brecha de conversión:** falta de estrategias efectivas para convertir esos leads en relaciones comerciales sostenibles.
+
+En un contexto de transformación digital, la venta B2B moderna requiere integrar **tecnología, data e inteligencia comercial**.  
+Ya no se trata solo de hacer networking, sino de **automatizar la prospección, optimizar los procesos y escalar el cierre**.
+
+Este bloque académico busca **democratizar el acceso a herramientas y metodologías** que antes eran exclusivas de grandes corporaciones.
+
+---
+
+## 🧠 Agenda Académica
+
+### Intervención 1 — César
+**Tema:** Cómo levantar leads B2B efectivos con herramientas digitales accesibles  
+**Duración:** 1 hora  
+**Formato:** Masterclass demostrativa + caso aplicado  
+**Perfil del ponente:** Experto en marketing digital, automatización y prospección B2B  
+
+**Objetivo:**  
+Capacitar a empresarios en el uso de herramientas digitales (gratuitas o de bajo costo) para identificar, atraer y calificar leads empresariales de alto potencial.  
+
+**Contenido:**  
+1. Panorama actual del marketing B2B digital  
+2. Herramientas para levantar leads (Google Advanced Search, Sales Navigator, Hunter.io, Apollo, Clay, Phantombuster, ZoomInfo)  
+3. Construcción de base de datos inteligente y accionable  
+4. Hack práctico: creación en vivo de un mini pipeline de leads reales  
+
+**Resultado esperado:**  
+Los asistentes obtendrán herramientas concretas para levantar y gestionar bases de leads calificados.
+
+---
+
+### Intervención 2 — Carlos (Logistics)
+**Tema:** Del lead al cliente: cómo convertir tu base de datos en ventas reales  
+**Duración:** 1 hora  
+**Formato:** Taller aplicado + storytelling empresarial  
+**Perfil del ponente:** Director comercial/logístico con experiencia en procesos de conversión y fidelización B2B  
+
+**Objetivo:**  
+Mostrar cómo transformar una base de leads en clientes de alto valor mediante **estrategias de seguimiento, nutrición y automatización** del ciclo comercial.
+
+**Contenido:**  
+1. De la data a la relación: viaje del lead B2B y rol del CRM  
+2. Herramientas clave: HubSpot, Pipedrive, Close, Zoho CRM, Lemlist, Mailshake, Instantly  
+3. Construcción de un pipeline comercial de alto rendimiento  
+4. Hacks de conversión B2B (scripts, KPIs, retención, LTV)  
+5. Caso práctico: mejora de la tasa de cierre del 18% al 42% mediante automatización y data-driven sales  
+
+**Resultado esperado:**  
+Los asistentes comprenderán cómo escalar su proceso comercial B2B con estrategias automatizadas centradas en datos.
+
+---
+
+## 💬 Cierre Comercial
+
+**CTA Principal:**  
+Asegura tu cupo ahora y sé parte de los empresarios que están marcando la diferencia.
+
+**Botón:** "Registrar y pagar con Wompi"  
+→ [Enlace de registro o checkout aquí]
+
+---
+
+## 🔗 Footer
+Cali Business Hub 2025 — Zonamérica Cali  
+© Todos los derechos reservados

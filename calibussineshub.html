@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cali Business Hub 2025 - Conecta. Inspírate. Escala.</title>
+  <meta name="description" content="Evento exclusivo para empresarios, inversionistas y ejecutivos de alto nivel. 22 de Noviembre en Zonamérica Cali." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+</head>
+<body class="dark-theme">
+  <header class="hero">
+    <div class="hero-bg" style="background-image: url('./branding/Img/empresario-que-usa-una-tableta-digital.jpg');"></div>
+    <div class="overlay">
+      <img src="./branding/Logo PNG/Cali Business Hub_logo-blanco.png" alt="Cali Business Hub Logo" class="logo" />
+      <h1>22 de Noviembre · Zonamérica Cali</h1>
+      <div id="countdown"></div>
+      <a href="#registro" class="btn-primary">Registrarse Ahora</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="section-content">
+      <h2>Conecta. Inspírate. Escala.</h2>
+      <p>Cali Business Hub no es un evento masivo, sino una experiencia selecta para empresarios, inversionistas y ejecutivos de alto nivel.</p>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <h3>50+</h3>
+          <p>Empresarios de Alto Nivel</p>
+        </div>
+        <div class="stat-item">
+          <h3>2</h3>
+          <p>Workshops Prácticos</p>
+        </div>
+        <div class="stat-item">
+          <h3>1</h3>
+          <p>Día de Networking Premium</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="valor" class="section">
+    <h2>¿Qué vivirás?</h2>
+    <ul>
+      <li>Networking guiado con líderes de negocio</li>
+      <li>Workshop práctico con herramientas reales</li>
+      <li>Panel de casos de éxito</li>
+      <li>Cóctel premium y directorio privado</li>
+    </ul>
+  </section>
+
+  <section id="agenda" class="section">
+    <h2>Agenda Académica</h2>
+    <div class="card">
+      <h3>César: Leads B2B con herramientas digitales</h3>
+      <p>Masterclass y caso aplicado con herramientas como Sales Navigator, Hunter, Apollo, etc.</p>
+    </div>
+    <div class="card">
+      <h3>Carlos: Del Lead al Cliente</h3>
+      <p>Taller sobre conversión y fidelización con CRM, automatización y hacks de ventas.</p>
+    </div>
+  </section>
+
+  <section id="speakers" class="section">
+    <h2>Ponentes Expertos</h2>
+    <div class="speakers-grid">
+      <div class="speaker-card">
+        <div class="speaker-image" style="background-image: url('./branding/Img/13630.jpg');"></div>
+        <div class="speaker-info">
+          <h3>César</h3>
+          <p class="speaker-title">Experto en Prospección B2B Digital</p>
+          <p>Especialista en herramientas como Sales Navigator, Hunter, Apollo y estrategias de generación de leads de alto valor.</p>
+        </div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image" style="background-image: url('./branding/Img/2115.jpg');"></div>
+        <div class="speaker-info">
+          <h3>Carlos</h3>
+          <p class="speaker-title">Director Comercial & Logístico</p>
+          <p>Experto en conversión, fidelización de clientes, CRM, automatización y estrategias avanzadas de ventas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="registro" class="section">
+    <div class="section-content">
+      <h2>Reserva tu Cupo</h2>
+      <p>Inversión: <strong>$500.000 + IVA</strong></p>
+      <p class="registration-note">Máximo 2 cupos por empresa</p>
+      <div class="registration-benefits">
+        <div class="benefit-item">
+          <span class="benefit-icon">✓</span>
+          <span>Acceso completo al evento</span>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✓</span>
+          <span>Materiales de trabajo incluidos</span>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✓</span>
+          <span>Cóctel premium y networking</span>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✓</span>
+          <span>Directorio privado de participantes</span>
+        </div>
+      </div>
+      <button class="btn-primary" onclick="window.location.href='https://checkout.wompi.co/l/YOUR-LINK'">Pagar con Wompi</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <img src="./branding/Logo PNG/Cali Business Hub_logo-negativo.png" alt="Cali Business Hub Logo" class="footer-logo" />
+      <p>© 2025 Cali Business Hub - Todos los derechos reservados</p>
+      <div class="footer-links">
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Términos y Condiciones</a>
+        <a href="#">Contacto</a>
+      </div>
+      <div class="language-selector">
+        <a href="#" class="active">Español</a>
+        <span>|</span>
+        <a href="#">English</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const eventDate = dayjs('2025-11-22T18:00:00');
+    setInterval(() => {
+      const now = dayjs();
+      const diff = eventDate.diff(now);
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      document.getElementById('countdown').innerText = `Faltan ${days} días`;
+    }, 1000 * 60 * 60);
+  </script>
+</body>
+</html>

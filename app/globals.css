@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Torus Pro', system-ui, sans-serif;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-24 px-4;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-cyan to-primary-purple bg-clip-text text-transparent;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary-cyan/20;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-primary text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:shadow-lg hover:shadow-primary-cyan/30 hover:-translate-y-1;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-primary-cyan text-primary-cyan px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-primary-cyan hover:text-white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

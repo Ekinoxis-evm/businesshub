@@ -1,0 +1,9 @@
+Firs collor
+R=5 G=218 B=215
+#05DAD7
+CMYK 56, 0, 24, 0
+
+Second collor
+R=86 G=40 B=237
+#5628ED
+CMYK 84, 69, 0,0
