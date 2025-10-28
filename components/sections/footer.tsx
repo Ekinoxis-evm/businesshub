@@ -78,7 +78,9 @@ export function Footer() {
               </li>
               <li className="flex items-center justify-center sm:justify-start gap-2 text-text-secondary">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm sm:text-base">+57 304 380 0600</span> <Link href="https://wa.me/573043800600" target="_blank" className="text-text-secondary hover:text-primary-cyan transition-colors">
+                <a href="https://wa.me/573043800600" target="_blank" rel="noopener noreferrer" className="text-sm sm:text-base text-text-secondary hover:text-primary-cyan transition-colors">
+                  +57 304 380 0600
+                </a>
               </li>
               <li className="flex items-center justify-center sm:justify-start gap-2 text-text-secondary">
                 <Globe className="w-4 h-4 flex-shrink-0" />
