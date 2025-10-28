@@ -41,9 +41,6 @@ export function LocationSection() {
                     height={100}
                     className="mx-auto mb-6"
                   />
-                  <h3 className="text-2xl font-bold text-text-primary mb-4">
-                    Zonamerica Colombia
-                  </h3>
                   <p className="text-text-secondary leading-relaxed">
                     El centro de innovación tecnológica de la región.
                   </p>

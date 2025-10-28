@@ -50,7 +50,7 @@ export function AcademicBlockSection({ academicBlock }: AcademicBlockProps) {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
-            Agenda del Evento
+            Aprende de Expertos en Ventas B2B Digitales
           </h2>
           <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-text-primary">
             {academicBlock.title}
