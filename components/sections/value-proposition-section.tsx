@@ -59,7 +59,7 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src="/branding/public/videos/buildings.mp4" type="video/mp4" />
+        <source src="/videos/buildings.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       
