@@ -19,7 +19,7 @@ export default async function HomePage() {
         description={eventData.description}
         date={eventData.date}
         location={eventData.location}
-        eventDateTime="2025-11-22T18:00:00"
+        eventDateTime="2025-11-29T09:00:00"
       />
       
       <AboutSection 
@@ -39,9 +39,7 @@ export default async function HomePage() {
       <AcademicBlockSection 
         academicBlock={eventData.academicBlock}
       />
-      
-      <SupportedBySection />
-      
+
       <LocationSection />
       
       <RegistrationSection 

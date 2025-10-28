@@ -35,7 +35,7 @@ export function LocationSection() {
               <CardContent className="p-8">
                 <div className="text-center mb-8">
                   <Image
-                    src="/aliados/nido.png"
+                    src="/aliados/zonamerica.png"
                     alt="NIDO Zonamerica"
                     width={200}
                     height={100}
