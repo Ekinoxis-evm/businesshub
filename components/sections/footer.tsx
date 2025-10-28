@@ -74,15 +74,15 @@ export function Footer() {
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-center justify-center sm:justify-start gap-2 text-text-secondary">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm sm:text-base break-all">info@calibusinesshub.com</span>
+                <span className="text-sm sm:text-base break-all">info@calibusineshub.com</span>
               </li>
               <li className="flex items-center justify-center sm:justify-start gap-2 text-text-secondary">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm sm:text-base">+57 (2) 123-4567</span>
+                <span className="text-sm sm:text-base">+57 304 380 0600</span> <Link href="https://wa.me/573043800600" target="_blank" className="text-text-secondary hover:text-primary-cyan transition-colors">
               </li>
               <li className="flex items-center justify-center sm:justify-start gap-2 text-text-secondary">
                 <Globe className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm sm:text-base break-all">www.calibusinesshub.com</span>
+                <span className="text-sm sm:text-base break-all">www.calibusineshub.com</span>
               </li>
             </ul>
           </div>
