@@ -3,7 +3,6 @@ import { AboutSection } from '@/components/sections/about-section'
 import { ValuePropositionSection } from '@/components/sections/value-proposition-section'
 import { DifferentialSection } from '@/components/sections/differential-section'
 import { AcademicBlockSection } from '@/components/sections/academic-block-section'
-import { SupportedBySection } from '@/components/sections/supported-by-section'
 import { LocationSection } from '@/components/sections/location-section'
 import { RegistrationSection } from '@/components/sections/registration-section'
 import { Footer } from '@/components/sections/footer'
@@ -39,8 +38,6 @@ export default async function HomePage() {
       <AcademicBlockSection 
         academicBlock={eventData.academicBlock}
       />
-
-      <SupportedBySection />
 
       <LocationSection />
       
