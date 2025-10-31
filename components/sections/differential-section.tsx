@@ -32,7 +32,7 @@ export function DifferentialSection({ differential }: DifferentialSectionProps) 
     },
     {
       icon: <Network className="w-8 h-8 md:w-10 md:h-10" />,
-      value: '+2',
+      value: '+10',
       label: 'Conexiones Garantizadas',
       delay: 0.3
     },
