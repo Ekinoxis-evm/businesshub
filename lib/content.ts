@@ -32,22 +32,21 @@ export async function getEventContent(): Promise<EventContent> {
   // For now, return static data. In production, you would read from the markdown file
   const eventData: EventContent = {
     title: "Cali Business Hub 2025",
-    description: "El punto de encuentro para empresarios, inversionistas y directivos que transforman el país.",
+    description: "Es el punto de encuentro para los empresarios, inversionistas y directivos más influyentes del país.\n\nUn workshop de alto nivel diseñado para ofrecer herramientas prácticas, relaciones estratégicas y espacios exclusivos de conexión real.\n\nEs una experiencia selecta, donde cada asistente ha sido cuidadosamente elegido para garantizar conexiones de valor y oportunidades tangibles.",
     date: "29 de noviembre de 2025",
     location: "Zonamérica Cali",
     duration: "3 horas",
     price: "$500,000 + IVA (Dos cupos por empresa)",
-    context: "Harás conexiones de alto valor y aprenderás de expertos.",
+    context: "Tu inversión se convierte en oportunidades reales de crecimiento, colaboración y expansión empresarial.",
     valueProposition: [
       "Conexión directa con empresarios, inversionistas y ejecutivos top",
-      "Experiencias guiadas de networking estratégico",
-      "Workshop inspirador con herramientas prácticas",
-      "Panel de casos de éxito con líderes",
-      "Cóctel premium de networking",
-      "Directorio digital privado de asistentes",
-      "Acceso al grupo de networking post-evento"
+      "Panel de casos de éxito con líderes que ya transformaron sus negocios a través del networking inteligente",
+      "Workshop inspirador con herramientas prácticas de conexión humana y expansión empresarial",
+      "Experiencias guiadas de networking estratégico, diseñadas para generar relaciones reales",
+      "Obtén un directorio digital privado de asistentes (contactos verificados)",
+      "Acceso al grupo de networking post-evento para seguir potenciando relaciones"
     ],
-    differential: "Cali Business Hub ha sido diseñado con un método que asegura que cada participante salga con al menos tres conexiones estratégicas de alto valor.",
+    differential: "Cali Business Hub ha sido diseñado con una metodología que asegura que cada participante salga con al menos tres conexiones estratégicas de alto valor.",
     attendees: [
       "CEOs, directivos y fundadores de empresas con visión de crecimiento",
       "Inversionistas y líderes con capital y propósito",

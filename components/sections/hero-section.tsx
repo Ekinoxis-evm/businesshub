@@ -58,13 +58,35 @@ export function HeroSection({ title, description, date, location, eventDateTime 
             />
           </motion.div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
             {title}
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed">
-            {description}
-          </p>
+          {/* Central Phrase */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="text-3xl md:text-4xl font-bold text-white mb-8"
+          >
+            Conecta - Inspírate - Trasciende
+          </motion.div>
+          
+          <div className="text-xl md:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed space-y-4 mb-6">
+            {description.split('\n\n').map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+
+          {/* +50 Empresarios */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="text-2xl md:text-3xl font-semibold text-white/95"
+          >
+            +50 empresarios, directores y visionarios reunidos en un solo lugar.
+          </motion.div>
           
           {/* Event Details */}
           <motion.div

@@ -16,17 +16,6 @@ export function DifferentialSection({ differential }: DifferentialSectionProps) 
       <div className="absolute inset-0 bg-gradient-overlay" />
       
       <div className="container-max relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
-            Nuestro Diferencial
-          </h2>
-        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -46,60 +35,10 @@ export function DifferentialSection({ differential }: DifferentialSectionProps) 
                 {differential}
               </p>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.3 }}
-                  viewport={{ once: true }}
-                  className="text-center"
-                >
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-primary rounded-2xl flex items-center justify-center">
-                    <Target className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2 text-text-primary">
-                    Conexiones Dirigidas
-                  </h3>
-                  <p className="text-text-secondary text-sm">
-                    Listado personalizado de contactos estratégicos
-                  </p>
-                </motion.div>
-                
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.4 }}
-                  viewport={{ once: true }}
-                  className="text-center"
-                >
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-primary rounded-2xl flex items-center justify-center">
-                    <Users className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2 text-text-primary">
-                    Networking Guiado
-                  </h3>
-                  <p className="text-text-secondary text-sm">
-                    Experiencias diseñadas para generar relaciones reales
-                  </p>
-                </motion.div>
-                
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.5 }}
-                  viewport={{ once: true }}
-                  className="text-center"
-                >
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-primary rounded-2xl flex items-center justify-center">
-                    <Zap className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2 text-text-primary">
-                    Resultados Tangibles
-                  </h3>
-                  <p className="text-text-secondary text-sm">
-                    Oportunidades reales de crecimiento y colaboración
-                  </p>
-                </motion.div>
+              <div className="text-center">
+                <div className="text-8xl md:text-9xl font-bold gradient-text mb-8">
+                  3
+                </div>
               </div>
             </CardContent>
           </Card>

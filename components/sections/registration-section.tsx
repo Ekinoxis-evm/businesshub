@@ -40,7 +40,7 @@ export function RegistrationSection({ date, location, duration, price }: Registr
           </h2>
         </motion.div>
 
-        {/* Luma Registration Frame */}
+        {/* Notion Registration Form */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -52,17 +52,46 @@ export function RegistrationSection({ date, location, duration, price }: Registr
             <CardContent className="p-6">
               <div className="w-full">
                 <iframe
-                  src="https://luma.com/embed/event/evt-ODlgBpRSQ2PabGn/simple"
+                  src="https://ekinoxis.notion.site/ebd/28f999f7988e809bb002f8f6fbc60b7b"
                   width="100%"
-                  height="500"
+                  height="600"
                   frameBorder="0"
-                  style={{ border: '1px solid #bfcbda88', borderRadius: '4px' }}
-                  allow="fullscreen; payment"
-                  aria-hidden="false"
-                  tabIndex={0}
+                  allowFullScreen
                   className="rounded-lg"
                 />
               </div>
+            </CardContent>
+          </Card>
+        </motion.div>
+
+        {/* Additional Benefits */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="max-w-4xl mx-auto mt-12"
+        >
+          <Card className="border-primary-cyan/30 bg-gradient-to-br from-dark-surface to-dark-surface/50">
+            <CardContent className="p-8">
+              <ul className="space-y-4 text-text-primary">
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-cyan text-xl font-bold mt-1">•</span>
+                  <span>Entregar un directorio digital exclusivo de asistentes (con contactos y sectores).</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-cyan text-xl font-bold mt-1">•</span>
+                  <span>Posibilidad de que cada participante se lleve al menos 10 contactos de alto valor garantizados.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-cyan text-xl font-bold mt-1">•</span>
+                  <span>Grupo exclusivo post-evento.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-cyan text-xl font-bold mt-1">•</span>
+                  <span>Kit de bienvenida.</span>
+                </li>
+              </ul>
             </CardContent>
           </Card>
         </motion.div>

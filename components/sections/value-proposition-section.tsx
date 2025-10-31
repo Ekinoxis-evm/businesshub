@@ -19,17 +19,17 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
       image: "/branding/Img/13630.jpg"
     },
     {
-      text: "Experiencias guiadas de networking estratégico",
+      text: "Experiencias guiadas de networking estratégico, diseñadas para generar relaciones reales",
       icon: Users,
       image: "/branding/Img/2115.jpg"
     },
     {
-      text: "Workshop inspirador con herramientas prácticas",
+      text: "Workshop inspirador con herramientas prácticas de conexión humana y expansión empresarial",
       icon: Briefcase,
       image: "/branding/Img/empresario-que-usa-una-tableta-digital.jpg"
     },
     {
-      text: "Panel de casos de éxito con líderes",
+      text: "Panel de casos de éxito con líderes que ya transformaron sus negocios a través del networking inteligente",
       icon: Award,
       image: "/branding/Img/72349.jpg"
     },
@@ -39,12 +39,12 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
       image: "/branding/Img/40965.jpg"
     },
     {
-      text: "Directorio digital privado de asistentes",
+      text: "Obtén un directorio digital privado de asistentes (contactos verificados)",
       icon: Globe,
       image: "/branding/Img/137576.jpg"
     },
     {
-      text: "Acceso al grupo de networking post-evento",
+      text: "Acceso al grupo de networking post-evento para seguir potenciando relaciones",
       icon: Network,
       image: "/branding/Img/una-imagen-borrosa-de-una-multitud-de-personas-con-muchas-lineas-que-las-conectan.jpg"
     }
@@ -77,78 +77,7 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
             ¿Qué vivirás?
           </h2>
-          <div className="flex items-center justify-center gap-2 text-text-secondary mb-8">
-            <Clock className="w-5 h-5" />
-            <span className="text-lg">{duration}</span>
-          </div>
-          
         </motion.div>
-
-        {/* Stats Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-20 mb-16"
-        >
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.5 }}
-              viewport={{ once: true }}
-              className="text-center group"
-            >
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-primary-cyan/50 transition-all duration-300 group-hover:scale-105">
-                <div className="text-6xl md:text-7xl font-bold gradient-text mb-4 group-hover:animate-pulse">
-                  50+
-                </div>
-                <p className="text-lg text-white/90 font-medium">
-                  Empresarios de Alto Nivel
-                </p>
-                <div className="w-16 h-1 bg-gradient-primary mx-auto mt-4 rounded-full"></div>
-              </div>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.7 }}
-              viewport={{ once: true }}
-              className="text-center group"
-            >
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-primary-cyan/50 transition-all duration-300 group-hover:scale-105">
-                <div className="text-6xl md:text-7xl font-bold gradient-text mb-4 group-hover:animate-pulse">
-                  2
-                </div>
-                <p className="text-lg text-white/90 font-medium">
-                  Workshops Prácticos
-                </p>
-                <div className="w-16 h-1 bg-gradient-primary mx-auto mt-4 rounded-full"></div>
-              </div>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.9 }}
-              viewport={{ once: true }}
-              className="text-center group"
-            >
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-primary-cyan/50 transition-all duration-300 group-hover:scale-105">
-                <div className="text-6xl md:text-7xl font-bold gradient-text mb-4 group-hover:animate-pulse">
-                  3
-                </div>
-                <p className="text-lg text-white/90 font-medium">
-                  Conexiones Estratégicas Garantizadas
-                </p>
-                <div className="w-16 h-1 bg-gradient-primary mx-auto mt-4 rounded-full"></div>
-              </div>
-            </motion.div>
-          </div>
-        </motion.div>
-      
 
 
         <motion.div
@@ -194,6 +123,19 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
               </Card>
             </motion.div>
           ))}
+        </motion.div>
+
+        {/* Final Phrase */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          viewport={{ once: true }}
+          className="text-center mt-16"
+        >
+          <p className="text-2xl md:text-3xl font-bold text-white/90">
+            Un solo día, cinco horas y decenas de oportunidades para hacer crecer tu empresa.
+          </p>
         </motion.div>
 
       </div>
