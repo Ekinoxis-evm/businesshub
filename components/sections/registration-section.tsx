@@ -3,7 +3,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
 
 interface RegistrationSectionProps {
   date: string
@@ -40,7 +39,7 @@ export function RegistrationSection({ date, location, duration, price }: Registr
           </h2>
         </motion.div>
 
-        {/* Notion Registration Form */}
+        {/* Formbricks Registration Form - Embedded iframe */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -50,51 +49,29 @@ export function RegistrationSection({ date, location, duration, price }: Registr
         >
           <Card className="border-primary-cyan/30 bg-gradient-to-br from-dark-surface to-dark-surface/50">
             <CardContent className="p-6">
-              <div className="w-full">
-                <iframe
-                  src="https://ekinoxis.notion.site/ebd/28f999f7988e809bb002f8f6fbc60b7b"
-                  width="100%"
-                  height="600"
-                  frameBorder="0"
-                  allowFullScreen
-                  className="rounded-lg"
+              <div 
+                style={{ position: 'relative', height: '80dvh', overflow: 'auto' }}
+                className="w-full rounded-lg"
+              >
+                <iframe 
+                  src="https://app.formbricks.com/s/d3fvwf8i8yvalmbqrf98h0tr"
+                  frameBorder="0" 
+                  style={{ 
+                    position: 'absolute', 
+                    left: 0, 
+                    top: 0, 
+                    width: '100%', 
+                    height: '100%', 
+                    border: 0 
+                  }}
+                  title="Formulario de registro - Cali Business Hub"
+                  allow="clipboard-read; clipboard-write"
                 />
               </div>
             </CardContent>
           </Card>
         </motion.div>
 
-        {/* Additional Benefits */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="max-w-4xl mx-auto mt-12"
-        >
-          <Card className="border-primary-cyan/30 bg-gradient-to-br from-dark-surface to-dark-surface/50">
-            <CardContent className="p-8">
-              <ul className="space-y-4 text-text-primary">
-                <li className="flex items-start gap-3">
-                  <span className="text-primary-cyan text-xl font-bold mt-1">•</span>
-                  <span>Entregar un directorio digital exclusivo de asistentes (con contactos y sectores).</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-primary-cyan text-xl font-bold mt-1">•</span>
-                  <span>Posibilidad de que cada participante se lleve al menos 10 contactos de alto valor garantizados.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-primary-cyan text-xl font-bold mt-1">•</span>
-                  <span>Grupo exclusivo post-evento.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-primary-cyan text-xl font-bold mt-1">•</span>
-                  <span>Kit de bienvenida.</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-        </motion.div>
       </div>
     </section>
   )

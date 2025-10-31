@@ -4,7 +4,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { CountdownTimer } from '@/components/ui/countdown-timer'
-import { ArrowRight, Calendar, MapPin } from 'lucide-react'
+import { Calendar, MapPin } from 'lucide-react'
 import Image from 'next/image'
 
 interface HeroSectionProps {
@@ -61,16 +61,7 @@ export function HeroSection({ title, description, date, location, eventDateTime 
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
             {title}
           </h1>
-          
-          {/* Central Phrase */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-3xl md:text-4xl font-bold text-white mb-8"
-          >
-            Conecta - Inspírate - Trasciende
-          </motion.div>
+        
           
           <div className="text-xl md:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed space-y-4 mb-6">
             {description.split('\n\n').map((paragraph, index) => (
@@ -78,15 +69,6 @@ export function HeroSection({ title, description, date, location, eventDateTime 
             ))}
           </div>
 
-          {/* +50 Empresarios */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="text-2xl md:text-3xl font-semibold text-white/95"
-          >
-            +50 empresarios, directores y visionarios reunidos en un solo lugar.
-          </motion.div>
           
           {/* Event Details */}
           <motion.div
@@ -127,16 +109,12 @@ export function HeroSection({ title, description, date, location, eventDateTime 
             transition={{ duration: 0.6, delay: 0.6 }}
             className="pt-8"
           >
-            <Button 
-              size="xl" 
+            <Button
+              size="xl"
               className="group bg-white text-primary-purple hover:bg-white/90 hover:scale-105 transition-all duration-300"
-              onClick={() => {
-                // Scroll to registration section
-                document.getElementById('registro')?.scrollIntoView({ behavior: 'smooth' })
-              }}
+              onClick={() => window.open("https://app.formbricks.com/s/d3fvwf8i8yvalmbqrf98h0tr", "_blank", "noopener,noreferrer")}
             >
-              Asegura tu cupo
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              Registrate aqui
             </Button>
           </motion.div>
         </motion.div>

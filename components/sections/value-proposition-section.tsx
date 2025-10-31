@@ -11,6 +11,7 @@ interface ValuePropositionProps {
   duration: string
 }
 
+
 export function ValuePropositionSection({ valueProposition, duration }: ValuePropositionProps) {
   const valueItems = [
     {
@@ -19,9 +20,9 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
       image: "/branding/Img/13630.jpg"
     },
     {
-      text: "Experiencias guiadas de networking estratégico, diseñadas para generar relaciones reales",
-      icon: Users,
-      image: "/branding/Img/2115.jpg"
+      text: "Panel de casos de éxito con líderes que ya transformaron sus negocios a través del networking inteligente",
+      icon: Award,
+      image: "/branding/Img/72349.jpg"
     },
     {
       text: "Workshop inspirador con herramientas prácticas de conexión humana y expansión empresarial",
@@ -29,14 +30,9 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
       image: "/branding/Img/empresario-que-usa-una-tableta-digital.jpg"
     },
     {
-      text: "Panel de casos de éxito con líderes que ya transformaron sus negocios a través del networking inteligente",
-      icon: Award,
-      image: "/branding/Img/72349.jpg"
-    },
-    {
-      text: "Cóctel premium de networking",
-      icon: Users2,
-      image: "/branding/Img/40965.jpg"
+      text: "Experiencias guiadas de networking estratégico, diseñadas para generar relaciones reales",
+      icon: Users,
+      image: "/branding/Img/2115.jpg"
     },
     {
       text: "Obtén un directorio digital privado de asistentes (contactos verificados)",
@@ -77,6 +73,18 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
             ¿Qué vivirás?
           </h2>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <p className="text-2xl md:text-3xl font-bold text-white/90">
+            1 día, 5 horas y decenas de oportunidades para hacer crecer tu empresa.
+          </p>
         </motion.div>
 
 
@@ -123,19 +131,6 @@ export function ValuePropositionSection({ valueProposition, duration }: ValuePro
               </Card>
             </motion.div>
           ))}
-        </motion.div>
-
-        {/* Final Phrase */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="text-center mt-16"
-        >
-          <p className="text-2xl md:text-3xl font-bold text-white/90">
-            Un solo día, cinco horas y decenas de oportunidades para hacer crecer tu empresa.
-          </p>
         </motion.div>
 
       </div>

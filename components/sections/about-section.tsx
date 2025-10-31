@@ -30,12 +30,29 @@ export function AboutSection({ context, attendees }: AboutSectionProps) {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
-            Conecta. Inspírate. Escala.
+            Conecta. Inspírate. Trasciende.
           </h2>
-          <p className="text-xl text-text-secondary max-w-4xl mx-auto leading-relaxed">
-            {context}
-          </p>
-        </motion.div>
+          </motion.div>
+
+          {/* Experiencia selecta */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="text-2xl md:text-3xl font-semibold text-white/95 flex justify-center items-center mb-12"
+          >
+            <span className="text-center">
+              +50 empresarios, directores y visionarios reunidos en un solo lugar.
+            </span>
+          </motion.div>
+         
+          <div className="flex justify-center">
+            <p className="text-xl text-text-secondary max-w-3xl text-center mx-auto leading-relaxed">
+              {context}
+            </p>
+          </div>
+        <div className="my-16" />
+
 
         {/* Attendee Types Grid */}
         <motion.div

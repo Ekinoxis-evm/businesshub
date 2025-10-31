@@ -32,7 +32,7 @@ export async function getEventContent(): Promise<EventContent> {
   // For now, return static data. In production, you would read from the markdown file
   const eventData: EventContent = {
     title: "Cali Business Hub 2025",
-    description: "Es el punto de encuentro para los empresarios, inversionistas y directivos más influyentes del país.\n\nUn workshop de alto nivel diseñado para ofrecer herramientas prácticas, relaciones estratégicas y espacios exclusivos de conexión real.\n\nEs una experiencia selecta, donde cada asistente ha sido cuidadosamente elegido para garantizar conexiones de valor y oportunidades tangibles.",
+    description: "Es el punto de encuentro para los empresarios, inversionistas y directivos más influyentes del país.\n\nEs una experiencia selecta, donde cada asistente ha sido cuidadosamente elegido para garantizar conexiones de valor y oportunidades tangibles. \n\n Ademas, es un workshop de alto nivel diseñado para ofrecer herramientas prácticas, relaciones estratégicas y espacios exclusivos de conexión real",
     date: "29 de noviembre de 2025",
     location: "Zonamérica Cali",
     duration: "3 horas",
