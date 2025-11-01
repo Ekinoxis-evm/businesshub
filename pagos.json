@@ -1,0 +1,79 @@
+{
+    "parameters": {
+      "mode": "manual",
+      "options": {},
+      "fields": {
+        "string": [
+          {
+            "name": "fecha",
+            "value": "={{ $json.body.data.transaction.finalized_at }}"
+          },
+          {
+            "name": "referencia",
+            "value": "={{ $json.body.data.transaction.reference }}"
+          },
+          {
+            "name": "estado",
+            "value": "={{ $json.body.data.transaction.status }}"
+          },
+          {
+            "name": "descripcion_pago",
+            "value": "={{ $json.body.data.transaction.payment_method.payment_description }}"
+          },
+          {
+            "name": "monto",
+            "value": "={{ $json.body.data.transaction.amount_in_cents / 100 }}"
+          },
+          {
+            "name": "moneda",
+            "value": "={{ $json.body.data.transaction.currency }}"
+          },
+          {
+            "name": "metodo_pago",
+            "value": "={{ $json.body.data.transaction.payment_method_type }}"
+          },
+          {
+            "name": "nombre",
+            "value": "={{ $json.body.data.transaction.customer_data.full_name }}"
+          },
+          {
+            "name": "correo",
+            "value": "={{ $json.body.data.transaction.customer_email }}"
+          },
+          {
+            "name": "telefono",
+            "value": "={{ $json.body.data.transaction.customer_data.phone_number }}"
+          },
+          {
+            "name": "documento",
+            "value": "={{ $json.body.data.transaction.customer_data.legal_id }}"
+          },
+          {
+            "name": "tipo_documento",
+            "value": "={{ $json.body.data.transaction.customer_data.legal_id_type }}"
+          },
+          {
+            "name": "url_pago",
+            "value": "={{ $json.body.data.transaction.payment_method.extra.async_payment_url }}"
+          },
+          {
+            "name": "redirect_url",
+            "value": "={{ $json.body.data.transaction.redirect_url }}"
+          },
+          {
+            "name": "id_transaccion",
+            "value": "={{ $json.body.data.transaction.id }}"
+          },
+          {
+            "name": "ambiente",
+            "value": "={{ $json.body.environment }}"
+          }
+        ]
+      }
+    },
+    "id": "Set_Datos_Limpios",
+    "name": "Set Datos Limpios",
+    "type": "n8n-nodes-base.set",
+    "typeVersion": 3,
+    "position": [500, 300]
+  }

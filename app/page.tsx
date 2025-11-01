@@ -39,14 +39,17 @@ export default async function HomePage() {
         academicBlock={eventData.academicBlock}
       />
 
-      <LocationSection />
-      
       <RegistrationSection 
         date={eventData.date}
         location={eventData.location}
         duration={eventData.duration}
         price={eventData.price}
       />
+
+
+      <LocationSection />
+      
+
       
       <Footer />
     </main>

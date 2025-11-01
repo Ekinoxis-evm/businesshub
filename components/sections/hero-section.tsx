@@ -58,7 +58,7 @@ export function HeroSection({ title, description, date, location, eventDateTime 
             />
           </motion.div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
             {title}
           </h1>
         
