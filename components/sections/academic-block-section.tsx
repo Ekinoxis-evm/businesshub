@@ -62,9 +62,12 @@ export function AcademicBlockSection({ academicBlock }: AcademicBlockProps) {
 
         <div className="space-y-12">
           {academicBlock.sessions.map((session, index) => {
-            const speakerImages = {
-              'César': '/branding/Img/empresario-que-usa-una-tableta-digital.jpg',
-              'Carlos': '/branding/Img/una-imagen-borrosa-de-una-multitud-de-personas-con-muchas-lineas-que-las-conectan.jpg'
+            const speakerImages: { [key: string]: string } = {
+              'César Sánchez': '/speakers/cesarsanchez.jpg',
+              'Cesar Sanchez': '/speakers/cesarsanchez.jpg',
+              'César': '/speakers/cesarsanchez.jpg',
+              'Santiago Cruz': '/speakers/santiagocruz.JPG',
+              'Santiago': '/speakers/santiagocruz.JPG'
             }
             
             return (
@@ -80,10 +83,11 @@ export function AcademicBlockSection({ academicBlock }: AcademicBlockProps) {
                   {/* Speaker Image */}
                   <div className="lg:w-1/3 relative h-64 lg:h-auto">
                     <Image 
-                      src={speakerImages[session.speaker as keyof typeof speakerImages] || '/branding/Img/137576.jpg'}
+                      src={speakerImages[session.speaker] || '/branding/Img/137576.jpg'}
                       alt={session.speaker}
                       fill
                       className="object-cover"
+                      sizes="(max-width: 1024px) 100vw, 33vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     <div className="absolute bottom-4 left-4">

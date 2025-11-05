@@ -75,16 +75,16 @@ export function RegistrationSection({ date, location, duration, price }: Registr
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full card-hover border-primary-cyan/30 bg-gradient-to-br from-dark-surface to-dark-surface/50 overflow-hidden">
-                <div className="relative h-52 w-full bg-gradient-to-br from-primary-cyan/20 to-primary-purple/20">
+              <Card className="h-full card-hover border-primary-cyan/30 bg-gradient-to-br from-dark-surface to-dark-surface/50 overflow-hidden flex flex-col">
+                <div className="relative h-64 w-full bg-gradient-to-br from-primary-cyan/20 to-primary-purple/20 overflow-hidden flex items-center justify-center">
                   <Image 
                     src={benefit.image}
                     alt={benefit.title}
                     fill
-                    className="object-contain p-8"
+                    className="object-contain scale-110"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-dark-surface/40 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-dark-surface/20 to-transparent pointer-events-none" />
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-lg md:text-xl font-bold text-white mb-3">

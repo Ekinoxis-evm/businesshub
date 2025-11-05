@@ -58,35 +58,33 @@ export async function getEventContent(): Promise<EventContent> {
       justification: "Las empresas B2B enfrentan una doble brecha: dificultad para generar leads cualificados y falta de estrategias efectivas para convertir esos leads en relaciones comerciales sostenibles.",
       sessions: [
         {
-          speaker: "César",
-          topic: "Cómo levantar leads B2B efectivos con herramientas digitales accesibles",
+          speaker: "César Sánchez",
+          topic: "Cierra leads como un experto: Estrategias reales de conversión B2B que sí generan ventas",
           duration: "1 hora",
           format: "Masterclass demostrativa + caso aplicado",
-          profile: "Experto en marketing digital, automatización y prospección B2B",
-          objective: "Capacitar a empresarios en el uso de herramientas digitales para identificar, atraer y calificar leads empresariales de alto potencial",
+          profile: "Finalista de Shark Tank y cofundador de Shiipy, César llega por primera vez a Cali para compartir las estrategias con las que ha logrado facturar más de 10 millones de dólares en USA y LATAM.",
+          objective: "Enseñar a los empresarios cómo estructurar un sistema de ventas digital capaz de convertir prospectos en clientes reales, utilizando CRM, automatización y estrategias avanzadas de cierre.",
           content: [
-            "Panorama actual del marketing B2B digital",
-            "Herramientas para levantar leads (Google Advanced Search, Sales Navigator, Hunter.io, Apollo, Clay, Phantombuster, ZoomInfo)",
-            "Construcción de base de datos inteligente y accionable",
-            "Hack práctico: creación en vivo de un mini pipeline de leads reales"
+            "Cómo construir un pipeline comercial de alto rendimiento",
+            "Claves para automatizar el seguimiento de leads sin perder el toque humano",
+            "Cómo usar Google Ads y CRM para escalar cierres B2B"
           ],
-          result: "Los asistentes obtendrán herramientas concretas para levantar y gestionar bases de leads calificados"
+          result: "Cada asistente saldrá con una estructura lista para implementar en su negocio: desde la gestión inteligente de leads hasta un proceso para hacer una automatización de cierre que convierta oportunidades en ventas reales."
         },
         {
-          speaker: "Carlos",
-          topic: "Del lead al cliente: cómo convertir tu base de datos en ventas reales",
+          speaker: "Santiago Cruz",
+          topic: "Generación de leads B2B de alto valor: De la captación a la calificación inteligente",
           duration: "1 hora",
           format: "Taller aplicado + storytelling empresarial",
-          profile: "Director comercial/logístico con experiencia en procesos de conversión y fidelización B2B",
-          objective: "Mostrar cómo transformar una base de leads en clientes de alto valor mediante estrategias de seguimiento, nutrición y automatización",
+          profile: "Con solo 24 años y más de $50 millones en ventas generadas, Santiago domina el arte de captar, nutrir y calificar leads B2B que realmente compran.",
+          objective: "Mostrar cómo usar herramientas digitales y técnicas de prospección inteligente para atraer y filtrar leads de alto valor, optimizando tiempo, presupuesto y esfuerzo comercial.",
           content: [
-            "De la data a la relación: viaje del lead B2B y rol del CRM",
-            "Herramientas clave: HubSpot, Pipedrive, Close, Zoho CRM, Lemlist, Mailshake, Instantly",
-            "Construcción de un pipeline comercial de alto rendimiento",
-            "Hacks de conversión B2B (scripts, KPIs, retención, LTV)",
-            "Caso práctico: mejora de la tasa de cierre del 18% al 42% mediante automatización"
+            "Cómo diseñar campañas efectivas para atraer leads empresariales",
+            "Estrategias de segmentación avanzada y calificación inteligente",
+            "Guía práctica para construir un sistema de generación de leads automatizado",
+            "Cómo integrar IA y herramientas digitales para potenciar resultados"
           ],
-          result: "Los asistentes comprenderán cómo escalar su proceso comercial B2B con estrategias automatizadas centradas en datos"
+          result: "Los asistentes aprenderán a generar una base sólida de leads calificados, listos para convertirse en oportunidades comerciales reales y sostenibles"
         }
       ]
     }
