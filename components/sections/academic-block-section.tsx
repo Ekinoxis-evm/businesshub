@@ -86,7 +86,11 @@ export function AcademicBlockSection({ academicBlock }: AcademicBlockProps) {
                       src={speakerImages[session.speaker] || '/branding/Img/137576.jpg'}
                       alt={session.speaker}
                       fill
-                      className="object-cover"
+                      className={`object-cover ${
+                        session.speaker === 'César Sánchez' || session.speaker === 'Cesar Sanchez' || session.speaker === 'César'
+                          ? 'object-[center_10%] lg:object-center'
+                          : 'object-center'
+                      }`}
                       sizes="(max-width: 1024px) 100vw, 33vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
