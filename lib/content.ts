@@ -33,7 +33,7 @@ export async function getEventContent(): Promise<EventContent> {
   const eventData: EventContent = {
     title: "Es el punto de encuentro para los empresarios, inversionistas y directivos más influyentes de Colombia.",
     description: "Viviras una experiencia unica, donde cada asistente ha sido cuidadosamente elegido para garantizar conexiones de valor y oportunidades tangibles. \n\n Ademas, contenido de alto valor, con un workshop de alto nivel diseñado para ofrecer herramientas prácticas.",
-    date: "29 de noviembre de 2025",
+    date: "6 de diciembre de 2025",
     location: "Zonamérica Cali",
     duration: "3 horas",
     price: "$500,000 + IVA (Dos cupos por empresa)",

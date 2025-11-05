@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 
 export const metadata: Metadata = {
   title: 'Cali Business Hub 2025 - Conecta. Inspírate. Escala.',
-  description: 'El punto de encuentro para empresarios, inversionistas y directivos que transforman el país. 22 de noviembre en Zonamérica Cali.',
+  description: 'El punto de encuentro para empresarios, inversionistas y directivos que transforman el país. 6 de diciembre en Zonamérica Cali.',
   keywords: 'business hub, networking, empresarios, inversionistas, cali, colombia',
   openGraph: {
     title: 'Cali Business Hub 2025',
