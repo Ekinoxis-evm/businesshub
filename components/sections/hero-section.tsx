@@ -112,7 +112,7 @@ export function HeroSection({ title, description, date, location, eventDateTime 
             <Button
               size="xl"
               className="group bg-white text-primary-purple hover:bg-white/90 hover:scale-105 transition-all duration-300"
-              onClick={() => window.open("https://app.formbricks.com/s/d3fvwf8i8yvalmbqrf98h0tr", "_blank", "noopener,noreferrer")}
+              onClick={() => window.open("https://app.formbricks.com/s/zpf40te3zab9jj1srpnrsxn8", "_blank", "noopener,noreferrer")}
             >
               Registrate aqui
             </Button>

@@ -108,7 +108,7 @@ export function RegistrationSection({ date, location, duration, price }: Registr
           className="text-center"
         >
           <a
-            href="https://app.formbricks.com/s/d3fvwf8i8yvalmbqrf98h0tr"
+            href="https://app.formbricks.com/s/zpf40te3zab9jj1srpnrsxn8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-12 py-6 rounded-2xl bg-gradient-to-r from-primary-cyan to-primary-purple text-2xl font-bold text-white hover:from-primary-cyan/90 hover:to-primary-purple/90 transition-all duration-300 shadow-2xl shadow-primary-cyan/30 hover:scale-105 hover:shadow-primary-cyan/50"
