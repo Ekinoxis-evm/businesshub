@@ -70,21 +70,6 @@ export async function getEventContent(): Promise<EventContent> {
             "Cómo usar Google Ads y CRM para escalar cierres B2B"
           ],
           result: "Cada asistente saldrá con una estructura lista para implementar en su negocio: desde la gestión inteligente de leads hasta un proceso para hacer una automatización de cierre que convierta oportunidades en ventas reales."
-        },
-        {
-          speaker: "Santiago Cruz",
-          topic: "Generación de leads B2B de alto valor: De la captación a la calificación inteligente",
-          duration: "1 hora",
-          format: "Taller aplicado + storytelling empresarial",
-          profile: "Con solo 24 años y más de $50 millones en ventas generadas, Santiago domina el arte de captar, nutrir y calificar leads B2B que realmente compran.",
-          objective: "Mostrar cómo usar herramientas digitales y técnicas de prospección inteligente para atraer y filtrar leads de alto valor, optimizando tiempo, presupuesto y esfuerzo comercial.",
-          content: [
-            "Cómo diseñar campañas efectivas para atraer leads empresariales",
-            "Estrategias de segmentación avanzada y calificación inteligente",
-            "Guía práctica para construir un sistema de generación de leads automatizado",
-            "Cómo integrar IA y herramientas digitales para potenciar resultados"
-          ],
-          result: "Los asistentes aprenderán a generar una base sólida de leads calificados, listos para convertirse en oportunidades comerciales reales y sostenibles"
         }
       ]
     }
