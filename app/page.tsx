@@ -18,7 +18,7 @@ export default async function HomePage() {
         description={eventData.description}
         date={eventData.date}
         location={eventData.location}
-        eventDateTime="2025-12-6T09:00:00"
+        eventDateTime="2025-12-06T09:00:00"
       />
       
       <AboutSection 
