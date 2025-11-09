@@ -3,6 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
+import { AddToCalendarDropdown } from '@/components/ui/add-to-calendar-dropdown'
 import Image from 'next/image'
 
 interface RegistrationSectionProps {
@@ -107,14 +108,20 @@ export function RegistrationSection({ date, location, duration, price }: Registr
           viewport={{ once: true }}
           className="text-center"
         >
-          <a
-            href="https://app.formbricks.com/s/zpf40te3zab9jj1srpnrsxn8"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-12 py-6 rounded-2xl bg-gradient-to-r from-primary-cyan to-primary-purple text-2xl font-bold text-white hover:from-primary-cyan/90 hover:to-primary-purple/90 transition-all duration-300 shadow-2xl shadow-primary-cyan/30 hover:scale-105 hover:shadow-primary-cyan/50"
-          >
-            Reservar mi cupo ahora
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://app.formbricks.com/s/zpf40te3zab9jj1srpnrsxn8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-12 py-6 rounded-2xl bg-gradient-to-r from-primary-cyan to-primary-purple text-2xl font-bold text-white hover:from-primary-cyan/90 hover:to-primary-purple/90 transition-all duration-300 shadow-2xl shadow-primary-cyan/30 hover:scale-105 hover:shadow-primary-cyan/50"
+            >
+              Reservar mi cupo ahora
+            </a>
+            <AddToCalendarDropdown 
+              variant="outline" 
+              size="lg"
+            />
+          </div>
         </motion.div>
 
       </div>

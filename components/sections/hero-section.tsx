@@ -4,6 +4,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { CountdownTimer } from '@/components/ui/countdown-timer'
+import { AddToCalendarDropdown } from '@/components/ui/add-to-calendar-dropdown'
 import { Calendar, MapPin } from 'lucide-react'
 import Image from 'next/image'
 
@@ -102,12 +103,12 @@ export function HeroSection({ title, description, date, location, eventDateTime 
             <CountdownTimer targetDate={eventDateTime} />
           </motion.div>
           
-          {/* CTA Button */}
+          {/* CTA Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="pt-8"
+            className="pt-8 flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Button
               size="xl"
@@ -116,6 +117,11 @@ export function HeroSection({ title, description, date, location, eventDateTime 
             >
               Registrate aqui
             </Button>
+            <AddToCalendarDropdown 
+              variant="outline" 
+              size="xl"
+              className="border-white/30 text-white hover:bg-white/10 hover:border-white/50"
+            />
           </motion.div>
         </motion.div>
       </div>

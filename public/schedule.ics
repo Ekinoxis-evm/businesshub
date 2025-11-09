@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ekinoxis//Cali Business Hub//ES
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:calibusinesshub-2025@calibusinesshub.com
+DTSTAMP:20250101T000000Z
+DTSTART:20251206T140000Z
+DTEND:20251206T210000Z
+SUMMARY:CALI BUSINESS HUB 2025
+DESCRIPTION:Evento empresarial exclusivo para conectar emprendedores, inversionistas y ejecutivos de alto nivel.\n\nIncluye:\n• Workshop práctico de ventas B2B digitales\n• Networking estratégico guiado\n• Panel de casos de éxito\n• Directorio digital de participantes\n\nReserva tu cupo: https://app.formbricks.com/s/zpf40te3zab9jj1srpnrsxn8\n\nMás información: https://calibusinesshub.com
+LOCATION:Zona América, Cali, Colombia
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
+

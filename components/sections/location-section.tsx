@@ -3,6 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
+import { AddToCalendarDropdown } from '@/components/ui/add-to-calendar-dropdown'
 import { MapPin, Building, Network, ExternalLink } from 'lucide-react'
 import Image from 'next/image'
 
@@ -75,15 +76,23 @@ export function LocationSection() {
                   </div>
                 </div>
 
-                <a
-                  href="https://www.google.com/maps/place/ZONAMERICA/@3.3269781,-76.5214538,17z/data=!3m1!4b1!4m6!3m5!1s0x8e30a1df68efbd65:0x5cd25776a8ad1743!8m2!3d3.3269781!4d-76.5214538!16s%2Fg%2F11fxb9b_l0?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary w-full flex items-center justify-center gap-2"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  Ver en Google Maps
-                </a>
+                <div className="space-y-3">
+                  <a
+                    href="https://www.google.com/maps/place/ZONAMERICA/@3.3269781,-76.5214538,17z/data=!3m1!4b1!4m6!3m5!1s0x8e30a1df68efbd65:0x5cd25776a8ad1743!8m2!3d3.3269781!4d-76.5214538!16s%2Fg%2F11fxb9b_l0?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary w-full flex items-center justify-center gap-2"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    Ver en Google Maps
+                  </a>
+                  <div className="flex justify-center">
+                    <AddToCalendarDropdown 
+                      variant="outline" 
+                      size="default"
+                    />
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </motion.div>
