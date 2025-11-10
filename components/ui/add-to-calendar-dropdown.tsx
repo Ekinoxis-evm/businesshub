@@ -18,7 +18,7 @@ interface CalendarEvent {
 
 interface AddToCalendarDropdownProps {
   variant?: 'default' | 'outline' | 'ghost' | 'link' | 'secondary';
-  size?: 'default' | 'sm' | 'lg' | 'icon';
+  size?: 'default' | 'sm' | 'lg' | 'xl' | 'icon';
   className?: string;
   event?: Partial<CalendarEvent>;
 }

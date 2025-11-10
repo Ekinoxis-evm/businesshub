@@ -4,8 +4,8 @@ import { Button } from './button';
 import { Calendar } from 'lucide-react';
 
 interface AddToCalendarButtonProps {
-  variant?: 'default' | 'outline' | 'ghost' | 'link' | 'destructive' | 'secondary';
-  size?: 'default' | 'sm' | 'lg' | 'icon';
+  variant?: 'default' | 'outline' | 'ghost' | 'link' | 'secondary';
+  size?: 'default' | 'sm' | 'lg' | 'xl' | 'icon';
   className?: string;
 }
 
