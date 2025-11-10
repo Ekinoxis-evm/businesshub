@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ekinoxis//Cali Business Hub//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:20251206@calibusinesshub.com
+DTSTAMP:20251101T180000Z
+DTSTART;TZID=America/Bogota:20251206T090000
+DTEND;TZID=America/Bogota:20251206T160000
+SUMMARY:CALI BUSINESS HUB 2025
+DESCRIPTION:Business and investment networking event.\nMore info: https://calibusinesshub.com
+LOCATION:Zona América, Cali, Colombia
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR   

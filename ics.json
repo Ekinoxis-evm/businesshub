@@ -1,0 +1,10 @@
+{
+    "parameters": {
+      "functionCode": "const evento = `\nBEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Ekinoxis//Cali Business Hub//ES\nCALSCALE:GREGORIAN\nBEGIN:VEVENT\nUID:${$json.referencia || 'sin-ref'}@calibusinesshub.com\nDTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z\nDTSTART:20251206T140000Z\nDTEND:20251206T210000Z\nSUMMARY:CALI BUSINESS HUB 2025\nDESCRIPTION:Tu registro ha sido confirmado.\\n\\nEvento empresarial para conectar emprendedores e inversionistas.\\n\\nMás info en https://calibusinesshub.com\nLOCATION:Zona América, Cali, Colombia\nSTATUS:CONFIRMED\nEND:VEVENT\nEND:VCALENDAR\n`;\n\nreturn [\n  {\n    json: {\n      ...$json,\n      mensaje: 'Archivo .ics generado correctamente',\n      nombre_archivo: `CaliBusinessHub_${$json.referencia || 'entrada'}.ics`\n    },\n    binary: {\n      data: {\n        data: Buffer.from(evento).toString('base64'),\n        mimeType: 'text/calendar',\n        fileName: `CaliBusinessHub_${$json.referencia || 'entrada'}.ics`\n      }\n    }\n  }\n];"
+    },
+    "id": "Function_GenerarICS",
+    "name": "Generar Archivo .ICS – 6 Dic",
+    "type": "n8n-nodes-base.functionItem",
+    "typeVersion": 1,
+    "position": [800, 400]
+  }
