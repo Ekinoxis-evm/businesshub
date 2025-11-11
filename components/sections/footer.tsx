@@ -89,9 +89,14 @@ export function Footer() {
           viewport={{ once: true }}
           className="border-t border-dark-border mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4"
         >
-          <p className="text-text-secondary text-sm">
-            © 2025 Cali Business Hub. Todos los derechos reservados.
-          </p>
+          <div className="flex flex-col items-center sm:items-start gap-2">
+            <p className="text-text-secondary text-sm">
+              © 2025 Cali Business Hub. Todos los derechos reservados.
+            </p>
+            <p className="text-text-secondary text-sm">
+              Organizado por Meerkat
+            </p>
+          </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-xs sm:text-sm">
             <div className="flex items-center gap-3 sm:gap-6">
               <a href="#" className="text-text-secondary hover:text-primary-cyan transition-colors">

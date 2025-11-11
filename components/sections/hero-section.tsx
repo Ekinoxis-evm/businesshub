@@ -76,15 +76,20 @@ export function HeroSection({ title, description, date, location, eventDateTime 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white/80"
+            className="flex flex-col items-center justify-center gap-4 text-white/80"
           >
-            <div className="flex items-center gap-2">
-              <Calendar className="w-5 h-5" />
-              <span className="text-lg">{date}</span>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <div className="flex items-center gap-2">
+                <Calendar className="w-5 h-5" />
+                <span className="text-lg">Martes, 6 de Diciembre del 2025</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPin className="w-5 h-5" />
+                <span className="text-lg">{location}</span>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
-              <MapPin className="w-5 h-5" />
-              <span className="text-lg">{location}</span>
+            <div className="text-base text-white/70">
+              Organizado por Meerkat
             </div>
           </motion.div>
           

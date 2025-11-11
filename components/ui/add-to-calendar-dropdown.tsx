@@ -248,6 +248,11 @@ END:VCALENDAR`;
             );
           })}
         </div>
+        <div className="border-t border-gray-200 dark:border-gray-700 px-3 py-2">
+          <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
+            Este evento es organizado por Meerkat
+          </p>
+        </div>
       </div>,
       document.body
     )
